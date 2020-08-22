@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;  
+  background: linear-gradient(rgba(255, 43, 55, .5), rgba(12, 66, 200, .4));
+  font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chuck-img {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2em
+}
+
+h2 {
+  font-size: 1.6em
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 400;
+  padding: .5em 2em;
+  border:2px solid black;
+  border-radius: 4px;
+  background-color: rgba(137, 43, 226, 0.602);
+  color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+button:hover, button:focus {
+  background:  rgba(137, 43, 226, 0.904);
+  border: 2px solid #fff;
+}
